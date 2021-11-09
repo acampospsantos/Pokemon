@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>tudo sobre pokemons </title>
+    <link rel="stylesheet" type="text/css" href="./_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="./_css/compra.css" />
+</head>
+
+<script type="text/javascript">
+    function calc_total() {
+        var qtd = parseInt(document.getElementById('cqtd').value);
+        tot = qtd * 1500;
+        document.getElementById('ctot').value = tot;
+    }
+</script>
+
+<body>
+
+    <div id="interface">
+        <div id="cabecalho">
+            <img id="logo1" src="./midia/pokebolaLOGO.png">
+            <img id="logo2" src="./midia/pokebolaLOGO.png">
+            <nav id="menu">
+                <ul type="disc">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobreNos.html"> Sobre nós</a></li>
+                    <li><a href="comprar.html">Comprar Itens</a></li>
+                    <li><a href="buscar.html">Buscar Pokemon</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="sobrenos">
+            <h1>
+                Comprar camisa
+            </h1>
+        </div>
+        <form oninput="cal_total();">
+            <img id="camisa" controls src="./midia/camisa-pokemon.png">
+            <fieldset id="pedido">
+                <legend id="pedido">Quero uma camisa </legend>
+
+                <p><label for="cest">Tamanho:</label>
+                    <select name="test" id="cest">
+                        <option>PP</option>
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+
+                    </select>
+                </p>
+                <p><label for="cqtd">Quantidade:</label><input type="number" name="tqtd" id="cqtd" min="1" max="10"></p>
+
+                <p><label for="ctot">Preço Total :</label><input type="text" name="ttot" id="ctot"
+                        placeholder="total a pagar $" readonly=""></p>
+            </fieldset>
+            <input type="image" name="tenviar" id="cenviar" src="./midia/botao-enviar.png">
+        </form>
+    </div>
+    <!--Interface-->
+
+</body>
+
+<footer id="rodape">
+    <p>Copyright 2021 - by Matheus Oliveira , Anderson Campos , Joao Victor<br>
+
+    </p>
+</footer>
+
+</html>

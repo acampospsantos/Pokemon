@@ -1,0 +1,28 @@
+h1{
+
+    background-color: #292525;	
+	color: antiquewhite;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+img#camisa{
+	margin-left: 300px;
+	margin-top: -10px;
+	height: 450px;
+	width: 450px;
+}
+
+div#sobrenos p{
+	margin-left: 50px;
+	margin-top: 50px;
+	height:auto;
+	width: 500px;
+	color: white;
+	background-color: rgb(184, 34, 34);
+	text-decoration:solid;
+	font-weight: bolder;
+	padding: 20px;
+	border-radius: 20px;
+}

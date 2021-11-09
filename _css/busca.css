@@ -1,0 +1,26 @@
+h2{
+    text-align: center;
+}
+
+form#busca{
+    margin-top: 30px ;
+    margin-left: 50px;
+    font-size:25px ;
+    width: auto;
+}
+
+div#botao{
+    margin-top: -20px;
+    margin-left: 550px;
+    text-size-adjust: 100px;
+    height: 100px;
+}
+
+.pokemonInformation {    
+    border: 2px solid red; 
+    width: 200px;     
+    margin-top: -10px;
+    list-style-type: none;
+    margin-left: 350px;
+    padding: 5px;
+}

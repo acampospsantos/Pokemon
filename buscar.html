@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Buscar pokemons </title>
+    <link rel="stylesheet" type="text/css" href="./_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="./_css/busca.css" />
+</head>
+
+<body>
+
+    <div id="interface">
+        <div id="cabecalho">
+            <img id="logo1" src="./midia/pokebolaLOGO.png">
+            <img id="logo2" src="./midia/pokebolaLOGO.png">
+            <nav id="menu">
+                <ul type="disc">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobreNos.html"> Sobre nós</a></li>
+                    <li><a href="comprar.html">Comprar Itens</a></li>
+                    <li><a href="buscar.html">Buscar Pokemon</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--cabecalho-->
+
+        <h2> Procure por um Pokémon!! </h2>
+        <form id="busca">
+            <label for="pokemonName"> Nome ou ID do Pokemon:</label>
+            <input type="text" id="pokemonName" name="pokemonName">
+        </form>
+
+        <div id="botao">
+            <input type="submit" value=" Buscar " onclick="searchPokemonByName(pokemonName.value)">
+        </div>
+
+
+        <ul class="pokemonInformation" hidden>
+            <li>
+                Identification: #<span class="identificationOfThePokemon"></span>
+            </li>
+            <li>
+                Name: <span class="nameOfThePokemon"></span>
+            </li>
+            <li>
+                <img src="" class="frontImageOfThePokemon" alt="">
+                <img src="" class="backImageOfThePokemon" alt="">
+            </li>
+            <li>
+                Types:
+                <span class="firstTypeOfThePokemon"></span>
+                <span class="connectionToSecondType" hidden> and </span>
+                <span class="secondTypeOfThePokemon"></span>
+            </li>
+            <li>
+                Height: <span class="heightOfThePokemon"></span>
+            </li>
+            <li>
+                Weight: <span class="weightOfThePokemon"></span>
+            </li>
+        </ul>
+
+
+    </div>
+    <script src="./_javascript/Apipokemon.js" type="text/javascript"> </script>
+</body>
+
+<footer id="rodape">
+    <p>Copyright 2021 - by Matheus Oliveira , Anderson Campos , Joao Victor<br> </p>
+</footer>
+
+</html>

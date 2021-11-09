@@ -1,0 +1,215 @@
+@charset "UTF-8";
+.titulo{
+	font-size:50px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Propriedades do body */
+body{
+	background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39cb06a2-39b2-4b54-8efa-c294fab1e52c/ddumeg9-af81320c-fba3-4dbb-af44-7bfcd61f2bb5.jpg/v1/fill/w_1192,h_670,q_70,strp/151_pokemon_wallpaper_by_drums107_ddumeg9-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjgxMyIsInBhdGgiOiJcL2ZcLzM5Y2IwNmEyLTM5YjItNGI1NC04ZWZhLWMyOTRmYWIxZTUyY1wvZGR1bWVnOS1hZjgxMzIwYy1mYmEzLTRkYmItYWY0NC03YmZjZDYxZjJiYjUuanBnIiwid2lkdGgiOiI8PTUwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.cR6bbHgUn3vFyXPghMN-i8cXkfCcmJtvRpqlZHtD9fU');
+	color: rgb(0,0,0,1);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+img#logo1{    
+	margin-left: 40px;
+   }
+
+img#logo2{    
+ margin-left: 725px;
+}
+
+div#interface{
+	width: 1000px;
+	background-color: #ffffff;
+	margin:-30px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 0px 5px 0px 5px ;
+}
+
+div#cabecalho{
+	border-bottom: 1px #606060 solid ;
+	height: 105px;
+	background-color: #292525;	
+}
+
+.menu a{
+	color: black;
+	font-weight: bolder;
+	margin-right: 15px;
+}
+
+img#img1{
+    margin-top:10px;
+    display: table-cell;
+    float: left;
+}
+
+div#texto1{
+    margin-top:30px;
+    margin: right 100px;
+    display: table-cell;
+    float: right;
+    width: 360px;
+    text-align: justify;
+}
+
+div#texto2{
+	margin-top: 60px;
+}
+
+div#filme{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+video#filme{
+	height: 400px;
+	width: 400px;
+}
+
+h2{
+	background-color: #292525;	
+	color: antiquewhite;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+P{
+	font-size: 20px;
+	align-items:center;
+	justify-content:center;
+	text-align:justify
+}
+
+div#listadefotos{
+	margin-top: 450px;
+}
+
+nav#menu {
+	display: block;		
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 4px;
+	left:390px;	
+}
+	
+nav#menu li{
+	border-radius: 5px;
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 15px;
+	margin: 2px;
+	transition: background-color 1s ;
+}
+
+nav#menu li:hover{
+	background-color: #606060;
+}
+	
+nav#menu a{
+	color: black;
+	text-decoration: none;		
+}
+
+nav#menu a:hover{
+	color: white;
+}
+
+ul#album-fotos{
+	width: 700px;
+	margin-top: 10px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;    
+}
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height:  200px;
+	margin: 10px;
+	border:5px solid #ffffff;
+	background: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover{
+	transform:scale(1.5);
+	transition:all .4s ease-in;
+}
+
+ul#album-fotos li:hover span{
+	opacity: 1;
+}
+
+ul#album-fotos li#foto1 {
+	background: url('../midia/squirtle.png')no-repeat;
+    background-position: 50% 50%;
+     background-size: 400px 400px; 
+     background-color:white;	
+}
+
+ul#album-fotos li#foto1:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px ;
+}
+
+ul#album-fotos li#foto2 {
+	background: url('../midia/charmander.png')no-repeat;
+    background-position: 50% 50%;
+     background-size: 400px 400px; 
+     background-color:white;
+	
+}
+
+ul#album-fotos li#foto2:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px ;
+}
+
+ul#album-fotos li#foto3 {
+	background: url('../midia/bulbasauro.png')no-repeat;
+    background-position: 50% 50%;
+     background-size: 400px 400px; 
+     background-color:white;
+	
+}
+
+ul#album-fotos li#foto3:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px ;
+}
+
+footer#rodape{
+	background: rgba(128, 128, 128, 1);	
+	width: 1010px;
+	height: 80px;
+	background-color: #292525;	
+	border-top: 1px solid ;
+	margin-bottom: 0cm;
+	margin-left: 163px;	
+	color: antiquewhite;
+}
+
+footer#rodape p {
+	justify-content: center;
+    text-align: center;
+}
